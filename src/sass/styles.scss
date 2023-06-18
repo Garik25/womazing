@@ -1,0 +1,17 @@
+$frist : #6E9C9F;
+$black :#000000;
+$table: 1110px;
+$table2: 956px;
+$mobile: 600px;
+$br: 4px;
+$trs : 0.3s;
+@import'./compers/nav.scss';
+@import'./compers/index_header.scss';
+
+.couterner {
+    padding: 40px;
+    margin-top: 40px;
+    margin-bottom: 16px;
+}
+
+
