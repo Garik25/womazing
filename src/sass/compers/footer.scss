@@ -1,0 +1,98 @@
+footer {
+    margin-top: 120px;
+    padding: 35px;
+
+    background: #F1EADC;
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        gap: 170px;
+       
+        .footer_logo {
+            .footer__dress {
+                display: flex;
+                align-items: center;
+
+                gap: 10px;
+            }
+
+            p {
+                margin-top: 15px;
+                margin-bottom: 15px;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 13px;
+                color: #000000;
+            }
+        }
+
+        .footer_menu {
+            display: flex;
+            justify-content: center;
+            gap: 36px;
+
+            .footer__menu__item {
+
+                a {
+                    font-family: 'Raleway';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 15px;
+                    text-decoration: none;
+                    cursor: pointer;
+                    color: $black;
+
+                }
+
+                a:hover {
+                    color: $frist;
+                    font-weight: 600;
+
+                }
+
+            }
+
+
+
+        }
+
+        .footer_end {
+
+            a {
+                display: block;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                color: #000000;
+                text-decoration: none;
+                margin-top: 15px;
+                margin-bottom: 15px;
+
+            }
+
+            .footer_end_logo {
+                margin-top: 15px;
+                margin-bottom: 15px;
+                display: flex;
+                gap: 12px;
+        
+                align-items: center;
+               
+            }
+        }
+    }
+
+    @media screen and (max-width:1115px) {
+        .footer {
+            flex-wrap: wrap-reverse;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    @media screen and (max-width:1080px) {
+        .footer {
+            gap: 80px;
+        }
+    }
+}

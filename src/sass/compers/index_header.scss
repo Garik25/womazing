@@ -1,5 +1,5 @@
 .couterner {
-    padding: 40px;
+    padding: 0 240px;
     margin-top: 40px;
     margin-bottom: 16px;
 }
@@ -10,6 +10,7 @@ header {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        max-width: 1500px;
 
         .header_left {
 
@@ -29,17 +30,17 @@ header {
                 font-weight: 400;
                 font-size: 20px;
                 color: $black;
-               max-width: 385px;
+                max-width: 385px;
                 margin: 45px 0px;
             }
 
             .botten_header {
                 display: flex;
-                align-items: center;
+
                 justify-content: center;
                 width: 243px;
                 gap: 9px;
-                height: 68px;
+                height: 58px;
                 background: rgba(110, 156, 159, 0.1);
 
 
@@ -87,11 +88,13 @@ header {
                 width: 179px;
                 height: 239px;
                 position: absolute;
+
             }
 
             img {
                 width: inherit;
                 height: inherit;
+                object-fit: contain;
             }
 
             .header_imgs2 {
@@ -115,51 +118,69 @@ header {
             flex-direction: column-reverse;
             justify-content: center;
             align-items: center;
-            gap: 12px;
-            .header_left{
+            flex-wrap: wrap;
+            gap: 52px;
+
+            .header_left {
                 text-align: center;
                 margin: 0 auto;
-              
+
                 .botten_header {
-                    margin:  auto;
+                    margin: auto;
                 }
 
             }
-            .header_right{
-                .header_imgs{
+
+            .header_right {
+                .header_imgs {
                     width: 100%;
                     height: 100%;
-                    
+
                 }
-              
-              
+
+
             }
 
         }
-        @media screen and (max-width:$mobile){
-            .header_left{
+
+        @media screen and (max-width:$mobile) {
+            .header_left {
                 margin: 0;
-                .header_h2{
-                    h2{
+
+                .header_h2 {
+                    h2 {
                         max-width: 180px;
                     }
                 }
-           
-            }
-        .header_right{
-            .header_imgs1{
-                display: none;
-                
-                img{
-                }
-            }
-            .header_imgs2{
-              display: none;
-                img{
-                }
+
             }
 
-        }
+            .header_right {
+                .header_imgs1 {
+                    display: none;
+
+                    img {}
+                }
+
+                .header_imgs2 {
+                    display: none;
+
+                    img {}
+                }
+
+            }
         }
     }
 }
+.shoph1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 55px;
+
+};
+
+.shopsnap{
+
+}
+
+.headers {}

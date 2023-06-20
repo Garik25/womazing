@@ -7,11 +7,16 @@ $br: 4px;
 $trs : 0.3s;
 @import'./compers/nav.scss';
 @import'./compers/index_header.scss';
+@import'./compers/main.scss';
+@import'./compers/footer.scss';
 
 .couterner {
-    padding: 40px;
-    margin-top: 40px;
-    margin-bottom: 16px;
+    max-width: 1100px;
+    ;
+    padding: 0px 32px;
+    margin: 0 auto;
 }
 
-
+h2 {
+    margin: 0;
+}
