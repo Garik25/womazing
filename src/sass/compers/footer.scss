@@ -8,7 +8,7 @@ footer {
         display: flex;
         justify-content: center;
         gap: 170px;
-       
+
         .footer_logo {
             .footer__dress {
                 display: flex;
@@ -76,23 +76,33 @@ footer {
                 margin-bottom: 15px;
                 display: flex;
                 gap: 12px;
-        
+
                 align-items: center;
-               
+
             }
         }
     }
 
     @media screen and (max-width:1115px) {
         .footer {
-            flex-wrap: wrap-reverse;
+            flex-wrap: wrap;
             justify-content: center;
             align-items: center;
         }
     }
+
     @media screen and (max-width:1080px) {
         .footer {
+
             gap: 80px;
+        }
+    }
+
+    @media screen and (max-width:510px) {
+        .footer {
+            .footer_menu{
+                flex-wrap: wrap;
+            }
         }
     }
 }

@@ -175,12 +175,15 @@ main {
         }
 
         .main_thrdin {
+            margin-top: 125px;
+
             h3 {
                 font-style: normal;
                 font-weight: 500;
                 font-size: 40px;
                 color: #000000;
             }
+
             .main_thrdin_item {
                 display: flex;
                 flex-wrap: wrap-reverse;
@@ -188,7 +191,8 @@ main {
                 align-items: center;
                 gap: 124px;
 
-              
+
+
 
                 .main_thrdin_items {
 
@@ -231,8 +235,163 @@ main {
                     }
                 }
             }
+
+            .main_thrdin_itemm {
+                display: flex;
+                flex-wrap: wrap-reverse;
+                justify-content: center;
+                align-items: center;
+                gap: 124px;
+
+                margin-top: 123px;
+
+                .main_thrdin_items {
+
+                    .main_thrdin_img {
+
+
+                        img {
+                            width: 600px;
+                        }
+                    }
+
+                    h4 {
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 25px;
+                        color: #000000;
+                    }
+
+                    p {
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 17px;
+                        color: #000000;
+                        max-width: 416px;
+
+                    }
+
+                    @media screen and (max-width:710px) {
+
+                        .main_thrdin_imgs {
+                            img {
+                                max-width: 100%;
+                            }
+                        }
+
+                        p {
+                            font-size: 17px;
+                        }
+
+                    }
+                }
+
+            }
         }
 
+    }
+
+    .main_contacs {
+        .input {
+            margin: 0 auto;
+            max-width: 1109px;
+            height: 476px;
+
+            background: #E5E5E5;
+
+            .inputs {
+                padding: 226px 460px;
+
+                p {
+                    margin: 0 auto;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 17px;
+                    line-height: 140%;
+                }
+            }
+
+            @media screen and (max-width:1115px) {
+                .inputs {
+                    padding: 204px 392px;
+
+                }
+            }
+        }
+
+        .main_contacs_items {
+            margin-top: 130px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 111px;
+
+            .main_contacs_item {
+                p {}
+            }
+        }
+
+        .main_contacs_inputs {
+            margin-top: 50px;
+
+
+            h3 {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 25px;
+                line-height: 140%;
+                color: #000000;
+            }
+
+
+            display:flex;
+            flex-direction: column;
+
+            .inputss {
+
+                input {
+                    width: 339px;
+                    display: block;
+                    border: none;
+                    outline: none;
+                    margin-bottom: 30px;
+                    padding: 10px;
+
+                    &:hover {
+                        border-bottom: 1px solid #000;
+                    }
+
+
+
+                }
+
+                .im {
+                    margin: 47px 0;
+
+                    button {
+                        padding: 16px 50px;
+                        background: #6E9C9F;
+                        color: #E5E5E5;
+                        border: none;
+                        cursor: pointer;
+                    }
+                }
+
+                a {
+                    margin-top: 50px;
+                    padding: 30px 76px;
+                    background: #F1EADC;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 17px;
+                    line-height: 140%;
+                    color: #000;
+                    text-decoration: none;
+                                  }
+
+            }
+
+        }
     }
 
     @media screen and (max-width:414px) {
@@ -242,5 +401,6 @@ main {
         }
 
     }
+
 
 }
